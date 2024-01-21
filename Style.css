@@ -1,0 +1,26 @@
+#box
+{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: relative; /*(relative)from closest point (view point) */
+    /* position: absolute; (absolute)from the top of the page */
+    /* position: fixed; (fixed)fixed on the screen scroll with screen */
+    /* position: sticky; (Sticky)fixed on the screen scroll when top reach near the dev */
+    top: 50px;
+    left: 50px;
+}
+
+#box2
+{
+    border: 1px dotted;
+    height: 100px;
+    width: 300px;
+    background-color: green;
+}
+
+p
+{
+    background-color: aqua;
+}
